@@ -1,4 +1,7 @@
-        body {
+       html {
+        overflow-x: hidden;
+       }
+       body {
             font-family: 'Segoe UI', sans-serif;
             scroll-behavior: smooth;
             background-color: #f0fff4;
@@ -143,24 +146,6 @@
         .button-48 span {
             z-index: 1;
             position: relative;
-        }
-
-        .team-card img {
-            height: 250px;
-            object-fit: cover;
-        }
-
-        .gallery-img {
-            height: 250px;
-            object-fit: cover;
-            width: 100%;
-        }
-
-        footer {
-            background: #155724;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
         }
 
         /* From Uiverse.io by Li-Deheng */
